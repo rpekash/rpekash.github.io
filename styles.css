@@ -37,6 +37,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    color: white;
+}
+
 .bio, .education, .interests, .contact {
     padding: 20px;
     margin: 0 15%;
@@ -62,5 +66,9 @@ footer {
 }
 
 h1, h2 {
+    color: #333;
+}
+
+section h1, section h2 {
     color: #333;
 }
