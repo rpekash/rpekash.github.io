@@ -34,13 +34,11 @@ header {
     background: #333;
     padding: 20px 0;
     text-align: center;
+    color: white;
 }
 
-header h1 {
-    color: white !important; 
-}
-
-.bio, .education, .interests, .contact {
+/* Apply consistent styling across all sections */
+section {
     padding: 20px;
     margin: 0 15%;
     background: white;
@@ -62,12 +60,4 @@ footer {
     padding: 10px 0;
     background: #333;
     color: white;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-section h1, section h2 {
-    color: #333; 
 }
