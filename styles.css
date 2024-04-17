@@ -32,13 +32,12 @@ nav ul li a.active, nav ul li a:hover {
 
 header {
     background: #333;
-    color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
-    color: white;
+    color: white !important; 
 }
 
 .bio, .education, .interests, .contact {
@@ -70,5 +69,5 @@ h1, h2 {
 }
 
 section h1, section h2 {
-    color: #333;
+    color: #333; 
 }
