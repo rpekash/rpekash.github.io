@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    background: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background: #555;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bio, .education, .interests, .contact {
+    padding: 20px;
+    margin: 0 15%;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+
+h1, h2 {
+    color: #333;
+}
